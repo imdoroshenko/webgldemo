@@ -1,0 +1,25 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "bin",
+      "node_modules",
+      "config",
+      "src/*.js.map",
+      "src/*.d.ts"
+    ]
+  },
+  "jsRules": {},
+  "rules": {
+    "quotemark": [true, "single", "jsx-double"],
+    "ordered-imports": false,
+    "indent": [true, "spaces", 2],
+    "semicolon": [true, "never"],
+    "no-console": [false, "log", "error"],
+    "one-variable-per-declaration": [false]
+  },
+  "rulesDirectory": []
+}
